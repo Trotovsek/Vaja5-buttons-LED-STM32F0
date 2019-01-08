@@ -167,6 +167,7 @@ switch (T4)
 			HAL_GPIO_TogglePin(GPIOC,GPIO_PIN_8);
 			HAL_Delay(1000);
 			HAL_GPIO_TogglePin(GPIOC,GPIO_PIN_8);
+			HAL_Delay(1000);
 		for(i=0;i<6;i++)
 		{
 			HAL_GPIO_TogglePin(GPIOC,GPIO_PIN_9);
@@ -184,7 +185,7 @@ switch (T4)
 			HAL_GPIO_TogglePin(GPIOC,GPIO_PIN_9);
 			HAL_Delay(100);
     }
-			HAL_Delay(500);
+			HAL_Delay(1000);
 			HAL_GPIO_TogglePin(GPIOC,GPIO_PIN_8);
 			HAL_Delay(1000);
 			HAL_GPIO_TogglePin(GPIOC,GPIO_PIN_8);
